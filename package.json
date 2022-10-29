@@ -1,0 +1,27 @@
+{
+  "name": "api-restful-mongo",
+  "version": "1.0.0",
+  "description": "Projeto que cria conexão com Banco de Dados, que neste caso é o MongoDB, e permite adicionar, buscar, editar e deletar itens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-cheng/api-restful-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-cheng/api-restful-mongo/issues"
+  },
+  "homepage": "https://github.com/gabriel-cheng/api-restful-mongo#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
+  }
+}
